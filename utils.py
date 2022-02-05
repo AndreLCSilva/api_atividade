@@ -1,6 +1,5 @@
 from models import Pessoas
 
-
 def insere_pessoas():
     pessoa = Pessoas(nome="Andre", idade=30)
     print(pessoa)
@@ -22,7 +21,7 @@ def exlui_pessoa():
     pessoa.delete()
 
 if __name__ == '__main__':
-    #insere_pessoas()
+    insere_pessoas()
     #altera_pessoa()
-    exlui_pessoa()
-    consulta_pessoas()
+    #exlui_pessoa()
+    #consulta_pessoas()
